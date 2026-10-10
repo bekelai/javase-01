@@ -37,9 +37,9 @@ public class ListSpeedTest {
 
         System.out.println("ArrayList尾部:" + aTail);
         System.out.println("LinkedList尾部:" + lTail);
-        System.out.println("ArrayList尾部/LinkedList尾部:" + aTail / lTail + 1);
+        System.out.println("ArrayList尾部/LinkedList尾部:" + (aTail / (lTail + 1)));
         System.out.println("ArrayList头部:" + aHead);
         System.out.println("LinkedList头部:" + lHead);
-        System.out.println("ArrayList头部/LinkedList头部:" + aHead / lHead + 1);
+        System.out.println("ArrayList头部/LinkedList头部:" + (aHead / (lHead + 1)));
     }
 }
